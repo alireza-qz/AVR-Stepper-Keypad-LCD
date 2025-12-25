@@ -1,0 +1,19 @@
+# Build folders
+Debug/
+Release/
+
+# AVR build files
+*.o
+*.elf
+*.hex
+*.map
+*.lss
+*.eep
+
+# Atmel Studio files
+*.atsuo
+*.componentinfo.xml
+
+# VS / Atmel cache
+.vs/
+*.user
