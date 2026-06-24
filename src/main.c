@@ -1,8 +1,8 @@
-#include "config.h"
-#include "bitops.h"
-#include "lcd.h"
-#include "keypad.h"
-#include "stepper.h"
+#include "../inc/config.h"
+#include "../inc/bitops.h"
+#include "../inc/lcd.h"
+#include "../inc/keypad.h"
+#include "../inc/stepper.h"
 
 volatile unsigned char key = 0;
 unsigned char number = 0;

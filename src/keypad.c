@@ -1,6 +1,6 @@
-#include "config.h"
-#include "bitops.h"
-#include "keypad.h"
+#include "../inc/config.h"
+#include "../inc/bitops.h"
+#include "../inc/keypad.h"
 
 unsigned char KeyPad_list[4][3] = {
 	{'1','2','3'},

@@ -1,5 +1,5 @@
-#include "config.h"
-#include "stepper.h"
+#include "../inc/config.h"
+#include "../inc/stepper.h"
 
 extern unsigned char weareinMotor;
 extern unsigned char x;

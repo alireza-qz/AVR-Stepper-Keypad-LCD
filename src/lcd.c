@@ -1,6 +1,6 @@
-#include "config.h"
-#include "bitops.h"
-#include "lcd.h"
+#include "../inc/config.h"
+#include "../inc/bitops.h"
+#include "../inc/lcd.h"
 
 void LCD_enable(){
 	set_bit(&LCD_PORT , E);
