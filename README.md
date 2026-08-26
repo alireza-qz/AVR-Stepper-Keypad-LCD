@@ -1,15 +1,35 @@
-# Stepper Motor Speed Control with Keypad (AVR)
+# AVR Stepper Motor Control with Keypad & LCD
 
-This project demonstrates controlling a stepper motor using an AVR microcontroller.  
-The motor speed is set by the user through a keypad.
+A simple Embedded C project for controlling a stepper motor using an AVR microcontroller.
 
----
+The motor speed is controlled using a 4×4 keypad, and a 16×2 LCD displays the entered value.
 
-## Description
-- The user enters a value using a keypad.
-- Based on the entered value, the stepper motor rotates at different speeds.
-- The project is written in C and designed for AVR microcontrollers.
-##  How It Works
-1. User enters a number using the keypad.
-2. The microcontroller reads the input.
-3. The stepper motor speed changes according to the entered value.
+The firmware was developed using **Atmel Studio**.
+
+## How It Works
+
+```text
+[4×4 Keypad]
+      │
+      ▼
+[AVR Microcontroller]
+      │
+      ├──────> [16×2 LCD]
+      │
+      ▼
+[Stepper Motor]
+```
+
+1. The user enters a value using the keypad.
+2. The AVR reads the input.
+3. The entered value controls the stepper motor speed.
+4. The LCD displays the entered value.
+
+## Hardware
+
+| Component           | Description                |
+| ------------------- | -------------------------- |
+| AVR Microcontroller | Main controller            |
+| 4×4 Keypad          | User input                 |
+| 16×2 LCD            | Displays the entered value |
+| Stepper Motor       | Motor being controlled     |
